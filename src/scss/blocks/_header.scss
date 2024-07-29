@@ -1,0 +1,26 @@
+.header {
+	padding: 16px 0 18px;
+	&__nav {}
+	&__logo {
+		flex-shrink: 0;
+	}
+	&__nav-btn {
+		display: none;
+	}
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.header__nav {
+	@include tablet {
+		display: none;
+	}
+}
+
+
+.mobile-nav-btn {
+}
+

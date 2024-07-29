@@ -1,0 +1,23 @@
+
+.nav {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	text-transform: capitalize;
+	text-align: center;
+	color: var(--neutral-gray404040);
+	list-style: none;
+    &__list {
+		display: flex;
+		gap: 30px;
+		a {
+			color: var(--neutral-gray404040);
+		}
+		a.active {
+			color: var(--black);
+		}
+	}
+    &__item {}
+    &__link {}
+}
